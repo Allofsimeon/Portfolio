@@ -81,13 +81,17 @@ a:hover{
 /** Work/Case Studies **/
 
 .work-heading{
-    margin-bottom: 5rem;
+    font-size: 2rem;
+    font-weight: 600;
 }
 .work-text{
     padding: 100px 30px;
 
 }
 
+.subtext{
+    margin-bottom: 5rem;
+}
 /** Mobile Responsiveness **/
 @media only screen and (max-width: 768px) {
 
@@ -109,7 +113,12 @@ a:hover{
 }
 
 .work-heading{
+margin-bottom: 2rem;
+}
+.subtext{
     margin-bottom: 2rem;
+    display: none;
+    
 }
 
 .work-text{
