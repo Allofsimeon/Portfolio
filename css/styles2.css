@@ -61,7 +61,6 @@ a:hover{
 }
 
 
-
 .greycolor{
     color:#D7D9D7;
 }
@@ -77,6 +76,16 @@ a:hover{
 
 .left{
     float: left;
+}
+
+/** Work/Case Studies **/
+
+.work-heading{
+    margin-bottom: 5rem;
+}
+.work-text{
+    padding: 100px 30px;
+
 }
 
 /** Mobile Responsiveness **/
@@ -99,4 +108,19 @@ a:hover{
     margin-right: 10px;
 }
 
+.work-heading{
+    margin-bottom: 2rem;
 }
+
+.work-text{
+    padding: 20px 20px;
+
+}
+
+.brands{
+    padding: 0 50px;
+}
+
+}
+
+
