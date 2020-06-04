@@ -3,9 +3,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/styles2.css">
-
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">      
+        <link rel="stylesheet" href="css/c-style.css">
 
          <!-- google fonts -->
       <link href="https://fonts.googleapis.com/css?family=Rubik"
@@ -15,7 +14,7 @@
     </head>
     <body>
         <nav class="myNav navbar-expand-lg  navbar" role="navigation">
-            <div class="container">
+            <div class="container-fluid">
         
             <a class="navbar-brand" href="#">
             <img src="img/p1.png" width="50px" alt="">
@@ -33,10 +32,7 @@
                         <a class="nav-link" href="#Work">MY WORK</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" href="#">ABOUT ME</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" href="#">CONTACT ME</a>
+                        <a class="nav-link" href="about.html">ABOUT ME</a>
                     </li>
                     
                 </ul>
@@ -53,20 +49,20 @@
                 
                     <h1 class="display-4">Hello, I'm Simeon</h1>
 
-                    <p class="lead">
-                        A Multidiciplinary Designer with over 3 years experience, focusing on creating a 
-                        Worthy Experience irrespective of the product.
+                    <p class="lead mb-4">
+                        A Multi-diciplinary Designer with over 3 years experience, <br> focusing on creating a 
+                        worthy experience irrespective of the product.
                     </p>
                     <p>
-                        <a href="mailto:hello@allofsimeon.xyz?Subject=Hey%20Simeon">Email</a></li>
-                        <a href="https://www.linkedin.com/in/SimeonFDA" target="_blank">Linkedin</a></li>
-                        <a href="https://twitter.com/Allofsimeon" target="_blank">twitter</a></li>
+                        <a href="mailto:hello@allofsimeon.xyz?Subject=Hey%20Simeon" class="mr-3">Email</a></li>
+                        <a href="https://www.linkedin.com/in/SimeonFDA" target="_blank" class="mr-3">Linkedin</a></li>
+                        <a href="https://twitter.com/AllofSimeon" target="_blank" class="mr-3">Twitter</a></li>
                     </p>
                 </div>
             </div>
         </section>
 
-        <!--What I do section -->
+        <!--What I do section 
         <section class="herosec blue-text">
             <div class="container" >
                 <h1 class="work-heading">What I do</h1>
@@ -94,20 +90,20 @@
                  </div>
               </div>
         </section>
-
+         -->
         <!--Work-->
         <section class=" herosec blue-text">
             <div class="container">
-                <h1 class="work-heading">Work</h1>
-                <p class="subtext">
+                <h1 class="work-heading mb-3" id="Work">Featured Projects</h1>
+                <p class="subtext ">
                     I do and know a couple of different things because I have seen that being a problem solver <br>
-                    requires different skills. The overall goal for me is to solve problems thereby making it easy for people to use and interact with give users a good experience.
+                    requires different skills. The overall goal for me is to solve problems and also make it easy <br> for people to use and interact with the final output of such solutions.
                 </p>
 
                 <div class="row">
                     <div class="col-md-4 work-text ">
-                        <h2>Humannns</h2>
-                        <h6 class="mb-3 sub text-uppercase small"> UX Design, UI Design, Front-end Dev.</h6>
+                        <h2>Peace of Home Dashboards</h2>
+                        <h6 class="mb-3 sub text-uppercase small"> UX Design, UI Design</h6>
                         <p>
                             Design Lead on Studio Platform team. 
                             Studio's API allows makers to create apps 
@@ -125,48 +121,12 @@
             </div>
         </section>
 
-        <!--Brands worked for (Remember to add Tooltip on hover) -->
-        <section class="herosec blue-text">
-                <div class="container">
-                    <h1 class="work-heading">Brands I have worked for...</h1>
-                    <p class="subtext">
-                        I do and know a couple of different things because I have seen that being a problem solver <br>
-                        requires different skills. The overall goal for me is to solve problems thereby making it easy for people to use and interact with give users a good experience.
-                    </p>
-                    <div class="row brands">
-                    
-                        <div class="col-sm-2">
-                            <img class="img-fluid" src="img/brands/Prosperar-logo.png" alt="Prosperar-logo">
-                        </div>
-                        <div class="col-sm-2">
-                            <img class="img-fluid" src="img/brands/Prosperar-logo.png" alt="Prosperar-logo">
-                        </div>
-                        <div class="col-sm-2">
-                            <img class="img-fluid" src="img/brands/Prosperar-logo.png" alt="Prosperar-logo">
-                        </div>
-                        <div class="col-sm-2">
-                            <img class="img-fluid" src="img/brands/Prosperar-logo.png" alt="Prosperar-logo">
-                        </div>
-                        <div class="col-sm-2">
-                            <img class="img-fluid" src="img/brands/Prosperar-logo.png" alt="Prosperar-logo">
-                        </div>
-                        <div class="col-sm-2">
-                            <img class="img-fluid" src="img/brands/Prosperar-logo.png" alt="Prosperar-logo">
-                        </div>
-                    </div>
-                </div>
-
-
-        </section>
-
-        <!--Work with Me-->
-        <section class="footer bluecolor"> 
-            
-            <div class="container text-center ">
-                <div class="contact mb-5">
+       <!--Work with/Footer-->
+       <section class="footer mt-5 bluecolor">  
+        <div class="container-fluid">
+            <div class="text-center">
                 <h2>Let me help solve your problem, build beautiful and <br> meaningful things together.<br></h2>
-                   <h4> <a href="mailto:hello@allofsimeon.xyz?Subject=Hey%20Simeon">hello@allofsimeon.xyz</a></h4>
-                <img class="signature mt-5"src="img/signature.svg" height="62">
+                <h5 class="mt-3 mb-5"> <a href="mailto:hello@allofsimeon.xyz?Subject=Hey%20Simeon">hello@allofsimeon.xyz</a></h5>
             </div>
             <div class="socials">
                 <p class="left">
@@ -178,17 +138,13 @@
                     <a href="Https://twitter.com/allofsimeon">Twitter</a>
                     <a href="Https://instagram.com/allofsimeon">Instagram</a>
                     <a  style="margin-right: 0;" href="Https://Linkedin.com/in/SimeonFDA">Linkedin</a>
-
                 </p>
             </div>
-
-        </section>
-        <section>
-
-        </section>
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-            <script src="js/bootstrap.bundle.min.js.map"></script>
+        </div>
+        
+    </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>

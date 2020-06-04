@@ -23,17 +23,14 @@ body{
 }
 
 .herosec{
-    min-height: 400px;
-    padding:100px 0;
+    min-height: 200px;
+    padding:50px 0;
 }
 
 /** Footer **/
 
 .footer{
-
-    min-height: 400px;
-    padding:100px 0px 50px 0px;
-
+    padding:80px 0 15px 0;
 }
 
 .socialbar{
@@ -41,7 +38,11 @@ body{
 }
 .socialbar a{
 
-    margin-right: 50px;
+    margin-right: 30px;
+}
+
+.socials{
+    display: flow-root;
 }
 
 /** Utilities **/
@@ -71,9 +72,16 @@ a:hover{
 
 .blue-text{
     color: #1C1F33;
-
 }
 
+.showlink{
+    color: #1C1F33;
+    text-decoration: underline;
+}
+
+.title{
+    display: inline-flex;
+}
 .left{
     float: left;
 }
@@ -133,3 +141,12 @@ margin-bottom: 2rem;
 }
 
 
+@media only screen and (max-width: 425px){
+
+    .title{
+        display:block;
+    }
+    .left{
+        font-size: .8rem;
+    }
+}
