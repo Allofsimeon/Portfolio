@@ -1,0 +1,173 @@
+
+body{
+    font-family: Rubik, Helvetica, sans-serif;
+    color:rgb(43, 48, 82);
+}
+
+/** Header **/
+
+
+#navcol-1 a{
+    color: #1C1F33;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#navcol-1 a:hover, .active{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/** Hero Section */
+.name{
+    font-size: 5.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.hero{
+    padding: 5rem 0rem;
+}
+
+/** Footer **/
+
+.footer{
+    padding:80px 0 15px 0;
+    color:#D7D9D7;
+}
+
+.socialbar{
+    float: right;
+}
+.socialbar a, .sociallink{
+
+    margin-right: 30px;
+    color:#D7D9D7;
+}
+.sociallink:hover, .socialbar a:hover{
+    color:#D7D9D7;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.socials{
+    display: flow-root;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+/** Utilities **/
+.bluecolor{
+    background-color: #1C1F33;
+}
+
+a{
+    color:rgb(43, 48, 82);
+
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: 500;
+    color:rgb(43, 48, 82);
+}
+
+
+.greycolor{
+    color:#D7D9D7;
+}
+
+.whitecolor{
+    color:#D7D9D7;
+}
+
+.blue-text{
+    color: #1C1F33;
+}
+
+.showlink{
+    color: rgb(43, 48, 82);
+    text-decoration: underline;
+}
+
+.title{
+    display: inline-flex;
+}
+.left{
+    float: left;
+}
+
+.head-padding{
+    padding:0 50px;
+}
+/** Work/Case Studies **/
+
+.work-heading{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.work-text{
+    font-weight: 100;
+
+}
+.work-btn{
+    padding:12px 30px;
+    background-color:#1C1F33;
+    color:#D7D9D7;
+    font-size: .8rem;
+}
+
+.subtext{
+    font-weight: 300;
+}
+/** Mobile Responsiveness **/
+@media only screen and (max-width: 768px) {
+
+/**.img-fluid{
+    max-width:75%;
+}**/
+    
+.left{
+    float: unset;
+}
+
+.socialbar{
+    float: unset;
+    margin-bottom: 0;
+    
+}
+
+.socialbar a{
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.work-heading{
+margin-bottom: 2rem;
+}
+
+
+
+.brands{
+    padding: 0 50px;
+}
+
+.head-padding{
+    padding:0 15px;
+}
+
+}
+
+
+@media only screen and (max-width: 425px){
+
+    .title{
+        display:block;
+    }
+    .left{
+        font-size: .8rem;
+    }
+}
