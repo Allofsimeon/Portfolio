@@ -1,20 +1,16 @@
 
 body{
     font-family: Rubik, Helvetica, sans-serif;
-    color:#D7D9D7;
+    color:rgb(43, 48, 82);
 }
 
 /** Header **/
 
-.myNav{
-
-    background-color: #1C1F33;
-}
 
 #navcol-1 a{
-    color: #D7D9D7;
+    color: #1C1F33;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 #navcol-1 a:hover, .active{
@@ -22,25 +18,45 @@ body{
     font-weight: 600;
 }
 
+/** Hero Section */
+.name{
+    font-size: 5.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
 
+.hero{
+    padding: 5rem 0rem;
+}
 
 /** Footer **/
 
 .footer{
     padding:80px 0 15px 0;
+    color:#D7D9D7;
 }
 
 .socialbar{
     float: right;
 }
-.socialbar a{
+.socialbar a, .sociallink{
 
     margin-right: 30px;
+    color:#D7D9D7;
+}
+.sociallink:hover, .socialbar a:hover{
+    color:#D7D9D7;
+    text-decoration: underline;
+    font-weight: 500;
 }
 
 .socials{
     display: flow-root;
+    font-size: 14px;
+    font-weight: 400;
 }
+
+
 
 /** Utilities **/
 .bluecolor{
@@ -48,14 +64,14 @@ body{
 }
 
 a{
-    color:#D7D9D7;
+    color:rgb(43, 48, 82);
 
 }
 
 a:hover{
     text-decoration: underline;
-    font-weight: 600;
-    color:#D7D9D7;
+    font-weight: 500;
+    color:rgb(43, 48, 82);
 }
 
 
@@ -72,7 +88,7 @@ a:hover{
 }
 
 .showlink{
-    color: #1C1F33;
+    color: rgb(43, 48, 82);
     text-decoration: underline;
 }
 
@@ -83,19 +99,28 @@ a:hover{
     float: left;
 }
 
+.head-padding{
+    padding:0 50px;
+}
 /** Work/Case Studies **/
 
 .work-heading{
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 2.5rem;
+    font-weight: 400;
 }
 .work-text{
-    padding: 100px 30px;
+    font-weight: 100;
 
+}
+.work-btn{
+    padding:12px 30px;
+    background-color:#1C1F33;
+    color:#D7D9D7;
+    font-size: .8rem;
 }
 
 .subtext{
-    margin-bottom: 5rem;
+    font-weight: 300;
 }
 /** Mobile Responsiveness **/
 @media only screen and (max-width: 768px) {
@@ -111,28 +136,27 @@ a:hover{
 .socialbar{
     float: unset;
     margin-bottom: 0;
+    
 }
 
 .socialbar a{
     margin-right: 10px;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .work-heading{
 margin-bottom: 2rem;
 }
-.subtext{
-    margin-bottom: 2rem;
-    display: none;
-    
-}
 
-.work-text{
-    padding: 20px 20px;
 
-}
 
 .brands{
     padding: 0 50px;
+}
+
+.head-padding{
+    padding:0 15px;
 }
 
 }
