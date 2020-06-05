@@ -6,17 +6,27 @@ body{
 
 /** Header **/
 
-
 #navcol-1 a{
     color: #1C1F33;
     font-size: 14px;
     font-weight: 400;
 }
 
-#navcol-1 a:hover, .active{
+#navcol-1 a:hover{
     text-decoration: underline;
-    font-weight: 600;
+    font-weight: 500;
 }
+
+.active{
+    text-decoration: underline;
+    font-weight: 500 !important;
+}
+
+.navbar i{
+    font-size: 1.5rem;
+    color:rgb(43, 48, 82);
+}
+
 
 /** Hero Section */
 .name{
@@ -65,7 +75,6 @@ body{
 
 a{
     color:rgb(43, 48, 82);
-
 }
 
 a:hover{
@@ -73,7 +82,6 @@ a:hover{
     font-weight: 500;
     color:rgb(43, 48, 82);
 }
-
 
 .greycolor{
     color:#D7D9D7;
@@ -102,6 +110,7 @@ a:hover{
 .head-padding{
     padding:0 50px;
 }
+
 /** Work/Case Studies **/
 
 .work-heading{
@@ -115,49 +124,91 @@ a:hover{
 .work-btn{
     padding:12px 30px;
     background-color:#1C1F33;
-    color:#D7D9D7;
+    color:#D7D9D7 !important;
     font-size: .8rem;
+}
+
+.work-btn i{
+    font-size: 1rem;
 }
 
 .subtext{
     font-weight: 300;
 }
+
+.work-dos{
+    margin-bottom: .7rem;
+}
+
+.featured{
+    display:none;
+    margin-bottom: 4rem;
+}
+
+.featured h1{
+    text-align: center;
+}
+
 /** Mobile Responsiveness **/
 @media only screen and (max-width: 768px) {
 
-/**.img-fluid{
-    max-width:75%;
-}**/
-    
-.left{
-    float: unset;
-}
+    .navbar-collapse{
+        margin-right:15px;
+    }
 
-.socialbar{
-    float: unset;
-    margin-bottom: 0;
-    
-}
+    .featured{
+        display:block;
+    }
+    .name{
+        font-size: 4.5rem;
+    }
+        
+    .work-text{
+    font-size: 1rem;
+    }
+    .work-place{
+    font-size: 1.3rem;
+    }
 
-.socialbar a{
-    margin-right: 10px;
-    font-size: 14px;
-    font-weight: 400;
-}
+    .left{
+        float: unset;
+    }
 
-.work-heading{
-margin-bottom: 2rem;
-}
+    .socialbar{
+    float: none;
+        margin-bottom: 0;
+        
+    }
 
+    .socialbar a{
+        margin-right: 10px;
+        font-size: 14px;
+        font-weight: 400;
+    }
 
+    .work-heading{
+    margin-bottom: 2rem;
+    }
 
-.brands{
-    padding: 0 50px;
-}
+    .brands{
+        padding: 0 50px;
+    }
 
-.head-padding{
-    padding:0 15px;
-}
+    .head-padding{
+        padding:0 15px;
+    }
+    .socials{
+        text-align: center;
+    }
+
+    .navbar-nav{
+        float:right;
+    }
+
+    .navbar-nav a{
+        float:right;
+    }
+
 
 }
 
@@ -169,5 +220,13 @@ margin-bottom: 2rem;
     }
     .left{
         font-size: .8rem;
+    }
+
+    .work-fulltext{
+        padding:30px 15px;
+    }
+
+    .socials{
+        text-align: center;
     }
 }
