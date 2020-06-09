@@ -2,28 +2,33 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <!--Bootstrap & CSS-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">      
         <link rel="stylesheet" href="css/c-style.css">
+         <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700"   rel="stylesheet">
+        <!-- Fonts Awesome -->
+        <script src="https://use.fontawesome.com/5c0b9b0543.js"></script>
+        <!--Favicon-->
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
 
-         <!-- google fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Rubik"
-      rel="stylesheet">
-
-        <title>😎Simeon Fadahunsi</title>
+        <title>Simeon Fadahunsi Portfolio</title>
     </head>
     <body>
-        <nav class="myNav navbar-expand-lg  navbar" role="navigation">
-            <div class="container-fluid">
+        <nav class="navbar-expand-lg  navbar" role="navigation">
+            <div class="container-fluid head-padding">
         
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
             <img src="img/p1.png" width="50px" alt="">
             </a>
             <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
-                <span class="greycolor small">Menu</span>
+                <span><i class="fa fa-bars" aria-hidden="true"></i></span>
             </button>
             
-            <div class="collapse navbar-collapse greycolor" id="navcol-1">
+            <div class="collapse navbar-collapse " id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item" role="presentation">
                         <a class="nav-link active" href="index.html">HOME</a>
@@ -43,20 +48,20 @@
 
 
         <!--Hero Area -->
-        <section class="bluecolor herosec greycolor">
+        <section>
             <div class="container">
-                <div class="jumbotron jumbotron-fluid bluecolor">
+                <div class="hero">
                 
-                    <h1 class="display-4">Hello, I'm Simeon</h1>
+                    <h1 class="name">Hello, I'm Simeon</h1>
 
                     <p class="lead mb-4">
                         A Multi-diciplinary Designer with over 3 years experience, <br> focusing on creating a 
                         worthy experience irrespective of the product.
                     </p>
                     <p>
-                        <a href="mailto:hello@allofsimeon.xyz?Subject=Hey%20Simeon" class="mr-3">Email</a></li>
-                        <a href="https://www.linkedin.com/in/SimeonFDA" target="_blank" class="mr-3">Linkedin</a></li>
-                        <a href="https://twitter.com/AllofSimeon" target="_blank" class="mr-3">Twitter</a></li>
+                        <a target="_blank" href="mailto:hello@allofsimeon.xyz?Subject=Hey%20Simeon" class="mr-3">Email</a></li>
+                        <a target="_blank" href="https://www.linkedin.com/in/SimeonFDA" target="_blank" class="mr-3">Linkedin</a></li>
+                        <a target="_blank" href="https://twitter.com/AllofSimeon" target="_blank" class="mr-3">Twitter</a></li>
                     </p>
                 </div>
             </div>
@@ -92,30 +97,63 @@
         </section>
          -->
         <!--Work-->
-        <section class=" herosec blue-text">
+        <section class=" herosec blue-text" id="Work">
             <div class="container">
-                <h1 class="work-heading mb-3 text-center" id="Work">Featured Projects</h1>
-                <p class="subtext text-center">
-                    I do and know a couple of different things because I have seen that being a problem solver <br>
-                    requires different skills. The overall goal for me is to solve problems and also make it easy <br> for people to use and interact with the final output of such solutions.
-                </p>
+                <div class="featured">
+                    <h1 >Featured Projects</h1>
+                    <p class="subtext">
+                        I do and know a couple of different things because I have seen that being a problem solver
+                        requires different skills. The overall goal for me is to solve problems and also make it easy
+                        for people to use and interact with the final output of such solutions.
+                    </p>
+                    
+                </div>
+                
 
-                <div class="row">
-                    <div class="col-md-4 work-text ">
-                        <h2>Peace of Home Dashboards</h2>
-                        <h6 class="mb-3 sub text-uppercase small"> UX Design, UI Design</h6>
-                        <p>
-                            Design Lead on Studio Platform team. 
-                            Studio's API allows makers to create apps 
-                            that supercharge the design experience. 
-                            We're building a marketplace experience inside the tool.
+                <div class="row mb-5">  
+                    <div class="col-md-4 work-fulltext">
+                        <h3 class="work-place">Peace of Home Dashboards</h3>
+                        <h6 class="text-uppercase small work-dos"> UX Design, UI Design</h6>
+                        <p class="work-text">
+                            Only Designer in a team of 8 on the Peace 
+                            of Home Project to create an MVP product in 6 weeks.
+                            PoH allows employees access the providers, 
+                            people, and places that help them relocate within the US.
                         </p>
-                        <button>
-                            Visit Website
-                        </button>
+                        <a class="work-btn" target="_blank" href="#"> Visit Website  </a>
                     </div>
                     <div class="col-md-8">
-                        <img src="img/work/Humaaans-optimized.gif" class="img-fluid" alt="">
+                        <img src="img/work/uba2.jpeg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-md-4 work-fulltext">
+                        <h3 class="work-place">United Bank of Africa Redesign</h3>
+                        <h6 class="text-uppercase small work-dos"> UX Design, UI Design</h6>
+                        <p class="work-text">
+                            Personal design exercise to redesign UBA mobile app.
+                        </p>
+                        <a class="work-btn" target="_blank" href="https://medium.com/@allofSimeon/simeon-uba-redesign-5b2990853700">Visit Website 
+                            <i class="fa fa-location-arrow" aria-hidden="true"></i>   </a>
+                    </div>
+                    <div class="col-md-8">
+                        <img src="img/work/uba2.jpeg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-md-4 work-fulltext">
+                        <h3 class="work-place">Peace of Home Dashboards</h3>
+                        <h6 class="text-uppercase small work-dos"> UX Design, UI Design</h6>
+                        <p class="work-text">
+                            Only Designer in a team of 8 on the Peace 
+                            of Home Project to create an MVP product in 6 weeks.
+                            PoH allows employees access the providers, 
+                            people, and places that help them relocate within the US.
+                        </p>
+                        <a class="work-btn" target="_blank" href="#"> Visit Website  </a>
+                    </div>
+                    <div class="col-md-8">
+                        <img src="img/work/uba2.jpeg" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
@@ -123,21 +161,21 @@
 
        <!--Work with/Footer-->
        <section class="footer mt-5 bluecolor">  
-        <div class="container-fluid">
+        <div class="container-fluid head-padding">
             <div class="text-center">
-                <h2>Let me help solve your problem, build beautiful and <br> meaningful things together.<br></h2>
-                <h5 class="mt-3 mb-5"> <a href="mailto:hello@allofsimeon.xyz?Subject=Hey%20Simeon">hello@allofsimeon.xyz</a></h5>
+                <h4 class="subtext">Let me help you solve problems, <br> and build something meaningful together.<br></h4>
+                <p class="mt-2 mb-5"> <a class="sociallink" href="mailto:hello@allofsimeon.xyz?Subject=Hey%20Simeon">hello@allofsimeon.xyz</a></p>
             </div>
             <div class="socials">
                 <p class="left">
                     Website made by me😎😎
                 </p>
                 <p class="socialbar">
-                    <a href="mailto:hello@allofsimeon.xyz?Subject=Hey%20Simeon">Email</a>
-                    <a href="http://allofsimeon.xy/blog">Blog</a>
-                    <a href="Https://twitter.com/allofsimeon">Twitter</a>
-                    <a href="Https://instagram.com/allofsimeon">Instagram</a>
-                    <a  style="margin-right: 0;" href="Https://Linkedin.com/in/SimeonFDA">Linkedin</a>
+                    <a target="_blank" href="mailto:hello@allofsimeon.xyz?Subject=Hey%20Simeon">Email</a>
+                    <a target="_blank" href="http://allofsimeon.xy/blog">Blog</a>
+                    <a target="_blank" href="Https://twitter.com/allofsimeon">Twitter</a>
+                    <a target="_blank" href="Https://instagram.com/allofsimeon">Instagram</a>
+                    <a target="_blank"  style="margin-right: 0;" href="Https://Linkedin.com/in/SimeonFDA">Linkedin</a>
                 </p>
             </div>
         </div>
