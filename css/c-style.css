@@ -130,7 +130,9 @@ a:hover{
     background-color:#1C1F33;
     color:#D7D9D7 !important;
     font-size: .8rem;
+    border-radius: 3px;
 }
+
 
 .work-btn i{
     font-size: 1rem;
@@ -152,6 +154,38 @@ a:hover{
 .featured h1{
     text-align: center;
 }
+
+
+
+/** Other Section */
+
+
+
+.other-work-btn{
+    padding:12px 30px;
+    border: 1px solid #1C1F33;
+   
+    font-size: .8rem;
+    border-radius: 3px;
+}
+
+
+.other-section{
+    margin-top:5rem;
+}
+
+.other{
+    margin-top:2rem;
+}
+
+.other-section>h1{
+    font-weight: 400;
+}
+
+.other-work-place{
+    font-weight: 400;
+}
+
 
 /** Mobile Responsiveness **/
 @media only screen and (max-width: 768px) {
@@ -232,5 +266,13 @@ a:hover{
 
     .socials{
         text-align: center;
+    }
+
+    .other-section{
+        margin-top:0rem;
+    }
+    
+    .other{
+        margin-top:0rem;
     }
 }
