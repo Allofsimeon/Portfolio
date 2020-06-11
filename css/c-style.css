@@ -79,9 +79,9 @@ a{
 
 a:hover{
     text-decoration: underline;
-    font-weight: 500;
     color:rgb(43, 48, 82);
 }
+
 
 .greycolor{
     color:#D7D9D7;
@@ -126,13 +126,18 @@ a:hover{
 
 }
 .work-btn{
-    padding:12px 30px;
+    padding:16px 32px;
     background-color:#1C1F33;
-    color:#D7D9D7 !important;
+    color:#D7D9D7 ;
     font-size: .8rem;
     border-radius: 3px;
 }
 
+.work-btn:hover{
+    background-color:#fff;
+    color:#1C1F33;
+    text-decoration: none;
+}
 
 .work-btn i{
     font-size: 1rem;
@@ -143,7 +148,7 @@ a:hover{
 }
 
 .work-dos{
-    margin-bottom: .7rem;
+    margin-bottom: 1.5rem;
 }
 
 .featured{
@@ -162,14 +167,25 @@ a:hover{
 
 
 .other-work-btn{
-    padding:12px 30px;
+    margin-top: .5rem;
+    padding:16px 32px;
     border: 1px solid #1C1F33;
-   
     font-size: .8rem;
     border-radius: 3px;
 }
 
+.other-work-btn:hover{
+    background-color:#1C1F33;
+    color: #fff;
+    text-decoration: none;
 
+}
+
+.other-work-text{
+    font-weight: 100;
+    margin-bottom: 32px;
+
+}
 .other-section{
     margin-top:5rem;
 }
