@@ -39,6 +39,9 @@ body{
     padding: 10rem 0rem 15rem 0rem;
 }
 
+.hero-project{
+    padding: 10rem 0rem 5rem 0rem;
+}
 /** Footer **/
 
 .footer{
@@ -123,7 +126,7 @@ a:hover{
 }
 .work-text{
     font-weight: 100;
-
+    margin-bottom: 2rem;
 }
 .work-btn{
     padding:16px 32px;
@@ -167,7 +170,7 @@ a:hover{
 
 
 .other-work-btn{
-    margin-top: .5rem;
+    margin-top: .8rem;
     padding:16px 32px;
     border: 1px solid #1C1F33;
     font-size: .8rem;
@@ -181,17 +184,53 @@ a:hover{
 
 }
 
+.view-work-btn{
+    margin-top: .5rem;
+    padding:16px 40px;
+    background-color: #1C1F33;
+    color:#FFF;
+    font-size: .8rem;
+    border-radius: 3px;
+    transition: box-shadow .3s;
+}
+
+.view-work-btn:hover{
+    box-shadow: 0 0 10px rgba(33,33,33,.1); 
+    color:#FFF;
+    
+    text-decoration: none;
+
+}
+
+.shrink-on-hover {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .shrink-on-hover:hover, .shrink-on-hover:focus, .shrink-on-hover:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
 .other-work-text{
     font-weight: 100;
     margin-bottom: 32px;
 
 }
 .other-section{
-    margin-top:5rem;
+    margin-top:8rem;
+    margin-bottom:5rem
 }
 
 .other{
     margin-top:2rem;
+    margin-bottom:8rem;
 }
 
 .other-section>h1{
@@ -298,4 +337,11 @@ a:hover{
     .other{
         margin-top:0rem;
     }
+}
+
+
+
+.work{
+    margin-bottom:80px;
+
 }
