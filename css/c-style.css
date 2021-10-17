@@ -345,3 +345,35 @@ a:hover{
     margin-bottom:80px;
 
 }
+
+
+
+/* Spotify Article Link */
+
+.article-link{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.article-img{
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    width:600px
+}
+
+
+.article-link:hover .article-img {
+    opacity: 0.3;
+}
+
+
+@media only screen and (max-width: 990px) {
+    .article-img{
+        width:400px
+    }
+}
