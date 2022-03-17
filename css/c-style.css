@@ -155,7 +155,8 @@ a:hover{
 }
 
 .featured{
-    display:none;
+    display: none;
+    padding: 0 200;
     margin-bottom: 4rem;
 }
 
