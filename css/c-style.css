@@ -156,13 +156,10 @@ a:hover{
 
 .featured{
     display: none;
-    padding: 0 200;
+    
     margin-bottom: 4rem;
 }
 
-.featured h1{
-    text-align: center;
-}
 
 
 
