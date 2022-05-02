@@ -160,9 +160,18 @@ a:hover{
     margin-bottom: 4rem;
 }
 
+.summary-text{
+    font-size: 80px
+}
 
-
-
+.portfolio-heading{
+    font-weight: 300;
+    font-size: 60px;
+}
+.portfolio-subhead{
+    font-weight: 300;
+    font-size: 40px;
+}
 /** Other Section */
 
 
@@ -334,6 +343,19 @@ a:hover{
     
     .other{
         margin-top:0rem;
+    }
+
+    .summary-text{
+        font-size: 40px
+    }
+    .portfolio-heading{
+        font-weight: 300;
+        font-size: 40px;
+    }
+
+    .portfolio-subhead{
+        font-weight: 300;
+        font-size: 30px;
     }
 }
 
